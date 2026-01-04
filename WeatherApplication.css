@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('../ASSETS/img/nature4.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app_container {
+  backdrop-filter: blur(80px);
+  padding: 20px;
+}
+
+#weather_card {
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#search_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#search_inputfield {
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  width: 80%;
+}
+
+#search_container {
+  margin-left: -35px;
+  cursor: pointer;
+}
+
+#location_display {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#location_icon {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+#city {
+  font-size: 1.8em;
+}
+
+#weather_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#weather_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#weather_image {
+  width: 80px;
+}
+
+#weather_text {
+  font-size: 1.2em;
+}
+
+#temp_display h1 {
+  font-size: 3em;
+}
+
+#weather_details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_card {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 45%;
+   font-size: 1.5em;
+  margin-bottom: 5px;
+}
